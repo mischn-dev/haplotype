@@ -1,5 +1,5 @@
 genolist = "genoytpes_wgs.txt"
-vcffile = "INDELcalling_sambamba.vcf"
+vcffile = "variants.vcf"
 
 ENV["R_HOME"]="C:\\Program Files\\R\\R-3.6.3"
 using DelimitedFiles, DataFrames, Statistics, CSV, ProgressMeter, HypothesisTests, GLM, Crayons, Gadfly, Compose, CuArrays, RCall, StatsBase
